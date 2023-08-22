@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(0, 0, 0, 0.695);
+}
+.form{
+    background-color: rgb(59, 59, 59);
+}
+
+.form-control{
+    background-color: transparent;
+    color: aliceblue;
+}
+.form-control:focus{
+    background-color: transparent;
+  
+}
+::placeholder{
+    color: antiquewhite;
+    opacity: 1;
+}
+:-ms-input-placeholder{
+    color: antiquewhite;  
+}
+::-ms-input-placeholder{
+    color: antiquewhite;
+}
+::-webkit-input-placeholder {
+    color: antiquewhite;
+}
+.show{
+    color: red;
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(79, 78, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
